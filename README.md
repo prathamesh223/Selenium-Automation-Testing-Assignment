@@ -18,7 +18,46 @@ This project automates the testing of core functionalities of the noKodr platfor
    git clone <repository_link>
    cd <repository_directory>
 2.Install dependencies
-  ```bash
-    pip install selenium
+     ```bash
+       pip install selenium
+3.Download and set up the WebDriver (ChromeDriver recommended)
+4.Update the script with the correct WebDriver path if needed.
+
+## Test Cases Implemented
+**1. Basic Script**
+Opens Chrome browser.
+Navigates to the noKodr platform.
+**2. Signup Page Validation**
+Checks for mandatory input fields (name, email, password, confirm password).
+Validates field-specific formats.
+Tests valid and invalid inputs.
+Ensures confirm password matches the password.
+Displays success or error messages accordingly.
+**3. Login Page Validation**
+Checks for required fields (username, password).
+Ensures password meets format requirements.
+Tests valid and invalid login credentials.
+Displays appropriate success or error messages.
+**4. Forgot Password Validation**
+Checks for mandatory email field.
+Validates email format.
+Tests valid and invalid email inputs.
+Displays success or error messages accordingly.
+
+## Execution
+Run each script in Jupyter Notebook or execute using:
+```bash
+jupyter notebook
+
+
+
+
+
+
+
+
+
+
+
 
 
